@@ -1,0 +1,12 @@
+.div1 img {margin:20px; float:left;}
+.div2 img {margin:20px; float:left;}
+.div3 img {margin:20px; float:left;}
+.submit {border-color:lightblue; width:30%; margin-left:100px;}
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  @media (min-width:320px) {img {width:50%;}}
+  @media (min-width:768px) {img {width:33.3%;} .sumbit {width:45%;}}
+  @media (min-width:1024px) {img {width:25%;}}
